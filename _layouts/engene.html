@@ -2,41 +2,47 @@
 layout: engene 
 ---
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
 	<meta name="description" content="enGene statistical consulting" />
 	<meta name="keywords" content="statistics, consulting, bioinformatics">
+	<meta charset="UTF-8">
 	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/main.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Fenix' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="../css/main.css"/>
 	<link rel="icon" type="image/png" href="images/favicon.ico">
 	<title>enGene Statistics</title>
 </head>
 
-  <body>
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-			<p> inner header </p>
-        </header>
-    </div>
+<body>
+	
+<div id="home" class="color belize-hole">
+	<!-- MAIN CONTENT -->
+	<div id="main_content_wrap" class="outer">
+		<section id="main_content" class="inner">
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+			{{ content }}
 
-    {{ content }}
+		</section>
+	</div>
 
-      </section>
-    </div>
+	<!-- BUTTONS -->
+	<div id="button-bl" class="growing-button">
+ 		<a class="button-link" href="../">main</a>
+	</div>
+	<div id="button-tr" class="growing-button">
+		<a class="button-link" href="../contact">contact</a>
+	</div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-		  <p> inner footer </p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
 
-  </body>
+	<!-- FOOTER  -->
+	<div id="footer">
+		<a class="menu_links" href="../target1">target 1</a>
+		<a class="menu_links" href="../target2">target 2</a>
+		<a class="menu_links" href="../target3">target 3</a>
+		<a class="menu_links" href="../target4">target 4</a>
+	</div>
+</div>
+
+</body>
 </html>
