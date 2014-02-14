@@ -66,7 +66,7 @@
 	height: 100%;
 	min-height: 100%;
 	z-index: -1;
-	display: block;
+	display: table;
 	text-align: center;
 	vertical-align: middle;
 
@@ -81,17 +81,15 @@
 	bottom: 0px;
 }
 
-#homeinner {
-	text-align: center;
-	vertical-align: middle;
-	display: table-cell;
+#home img {
 	width: 50%;
 }
 
-#homeinner img {
-	width: 55%;
-	z-index: 1;
-	vertical-align: middle;	
+#homeinner {
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
 }
 
 .menu_links {
@@ -106,7 +104,7 @@
 #footer {
 	position: fixed;
 	width: 100%;
-	bottom: 20px;
+	bottom: 40px;
 	left: 0px;
 	z-index: 50; /* It should not overlap the button */
 	height: 2.0em;
@@ -131,7 +129,7 @@ a {
 
 a:hover {
 	color: #FF3300;
-	text-shadow: #010101 0px 0px 2px;
+	text-shadow: #010101 0px 0px 1px;
 }
 
 .growing-button {
