@@ -110,26 +110,22 @@
 	height: 2.0em;
 }
 
-a {
+a.menu_links {
 	text-decoration: none;
 	color: #ECF0F1;
-	text-shadow: none;
+	text-shadow: 0.1em 0.1em 0.2em black;
 
-  	transition: color 0.5s ease;
-	transition: text-shadow 0.5s ease;
-	-webkit-transition: color 0.5s ease;
-	-webkit-transition: text-shadow 0.5s ease;
-	-moz-transition: color 0.5s ease;
-	-moz-transition: text-shadow 0.5s ease;
-	-o-transition: color 0.5s ease;
-	-o-transition: text-shadow 0.5s ease;
-	-ms-transition: color 0.5s ease;
-	-ms-transition: text-shadow 0.5s ease;
+	transition: All 0.7s ease;
+	-webkit-transition: All 0.7s ease;
+	-moz-transition: All 0.7s ease;
+	-o-transition: All 0.7s ease;
+	-ms-transition: All 0.7s ease;
 }
 
-a:hover {
+a.menu_links:hover {
 	color: #FF3300;
-	text-shadow: #010101 0px 0px 1px;
+	font-size: 1.8em;
+	text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .growing-button {
@@ -146,11 +142,11 @@ a:hover {
 	padding: 2px;
 
 	/*Transition*/
-	-webkit-transition: All 0.5s ease;
-	-moz-transition: All 0.5s ease;
-	-o-transition: All 0.5s ease;
-	-ms-transition: All 0.5s ease;
-	transition: All 0.5s ease;
+	-webkit-transition: All 0.7s ease;
+	-moz-transition: All 0.7s ease;
+	-o-transition: All 0.7s ease;
+	-ms-transition: All 0.7s ease;
+	transition: All 0.7s ease;
 }
 
 /* bottom left */
@@ -160,7 +156,6 @@ a:hover {
 	border-top-right-radius: 10px;
 	-webkit-border-top-right-radius: 10px;
 	-moz-border-top-right-radius: 10px;
-	
 }
 
 /* top right */
@@ -169,8 +164,7 @@ a:hover {
 	right: 0px;
 	border-bottom-left-radius: 10px;
 	-webkit-bottom-left-radius: 10px;
-	-moz-border-bottom-left-radius: 10px;
-	
+	-moz-border-bottom-left-radius: 10px;	
 }
 
 a.button-link {
@@ -178,21 +172,17 @@ a.button-link {
 	color: #2980B9;
 	text-shadow: none;
 
-  	transition: color 0.5s ease;
-	transition: text-shadow 0.5s ease;
-	-webkit-transition: color 0.5s ease;
-	-webkit-transition: text-shadow 0.5s ease;
-	-moz-transition: color 0.5s ease;
-	-moz-transition: text-shadow 0.5s ease;
-	-o-transition: color 0.5s ease;
-	-o-transition: text-shadow 0.5s ease;
-	-ms-transition: color 0.5s ease;
-	-ms-transition: text-shadow 0.5s ease;
+	/*Transition*/
+	-webkit-transition: All 0.7s ease;
+	-moz-transition: All 0.7s ease;
+	-o-transition: All 0.7s ease;
+	-ms-transition: All 0.7s ease;
+	transition: All 0.7s ease;
 }
 
 a.button-link:hover {
 	color: #FF3300;
-	text-shadow: #010101 0px 0px 1px;
+/*	text-shadow: 0.1em 0.1em 0.2em black; */
 }
 
 .outer {
