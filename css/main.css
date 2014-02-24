@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Istok+Web|Oswald);
 .color.turquoise {
   background: #1ABC9C;
 }
@@ -59,6 +60,12 @@
 .color.asbestos {
   background: #7F8C8D;
 }
+.color.logo-red {
+  background: #FF3300;
+}
+.color.logo-blue {
+  background: #033D5C;
+}
 
 #home {
 	position: absolute;
@@ -92,6 +99,16 @@
 	vertical-align: middle;
 }
 
+h1, h2, h3, h4 {
+	color: #3F4C4D;
+	font-family: 'Oswald', sans-serif;
+}
+
+p {
+	color: black;
+	font-family: 'Istok Web', sans-serif;
+}
+
 .menu_links {
 	margin-right: 2%;
 	margin-left: 2%;
@@ -112,7 +129,7 @@
 
 a.menu_links {
 	text-decoration: none;
-	color: #ECF0F1;
+	color: #FFFFFF;
 	text-shadow: 0.1em 0.1em 0.2em black;
 
 	transition: All 0.7s ease;
@@ -123,7 +140,7 @@ a.menu_links {
 }
 
 a.menu_links:hover {
-	color: #FF3300;
+/*	color: #3CA0D0; */
 	font-size: 1.8em;
 	text-shadow: 0.1em 0.1em 0.2em black;
 }
@@ -169,7 +186,7 @@ a.menu_links:hover {
 
 a.button-link {
 	text-decoration: none;
-	color: #2980B9;
+	color: #E74C3C;
 	text-shadow: none;
 
 	/*Transition*/
@@ -181,7 +198,7 @@ a.button-link {
 }
 
 a.button-link:hover {
-	color: #FF3300;
+	color: #086FA1;
 /*	text-shadow: 0.1em 0.1em 0.2em black; */
 }
 
