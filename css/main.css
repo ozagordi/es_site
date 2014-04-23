@@ -1,4 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Istok+Web|Oswald);
+@import url(http://fonts.googleapis.com/css?family=Gafata|Noto+Serif);
+/* @import url(http://fonts.googleapis.com/css?family=Istok+Web|Oswald); */
+
 .color.turquoise {
   background: #1ABC9C;
 }
@@ -67,15 +69,21 @@
   background: #033D5C;
 }
 
+table {
+	width:100%;
+	table-layout:fixed;
+}
+
+img {
+     max-width: 100%;
+}
+
 #home {
-	position: absolute;
 	width: 100%;
 	height: 100%;
-	min-height: 100%;
 	z-index: -1;
-	display: table;
+ 	display: table;
 	text-align: center;
-	vertical-align: middle;
 
     box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -88,68 +96,131 @@
 	bottom: 0px;
 }
 
-#home img {
-	width: 50%;
+#homeinner {
+	width: 100%;
+	position: relative;
+	display: table-row;
 }
 
-#homeinner {
+#left-arrow {
+	float: left;
 	display: table-cell;
-	width: 100%;
-	height: 100%;
 	vertical-align: middle;
+}
+
+#right-arrow {
+	float: right;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#main-logo {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#empty-cell {
+	display: table-cell;
+	height: 3em;
+}
+
+#button-cell {
+	display: table-cell;
+	overflow: hidden;
+	text-align: center;
 }
 
 h1, h2, h3, h4 {
 	color: #3F4C4D;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Gatafa', sans-serif;
 }
 
 p {
 	color: black;
-	font-family: 'Istok Web', sans-serif;
+	font-family: 'Noto Serif', sans-serif;
+}
+
+
+.home_link {
+	display: inline-block;
+	white-space: nowrap;
+/*	margin-right: 1%;
+	margin-left: 1%;
+	margin-bottom: 0%;
+	margin-top: 0%; */
+	font-size: 0.9em;
+	font-family: 'Gatafa', sans-serif;
+	color: white;
+	min-width: 2.5em;
+	max-width: 100%;
+	z-index: 10;
+	vertical-align: middle;
+	background-color: #E74C3C;
+}
+
+.menu_button {
+	display: inline-block;
+	outline: #E74C3C solid 1px;
+	outline-offset: 4px;
+	margin: 10px 30px;
+	vertical-align: middle;
 }
 
 .menu_links {
-	margin-right: 2%;
-	margin-left: 2%;
-	font-size: 1.6em;
-	font-family: 'Oswald', sans-serif;
-	width: 20%;
+	display: table-cell;
+/*	margin-right: 1%;
+	margin-left: 1%;*/	
+	font-size: 0.9em;
+	font-family: 'Gatafa', sans-serif;
 	z-index: 10;
+	vertical-align: middle;
+}
+
+.img_sep {
+	display: inline-block; /*table-cell;*/
+	white-space: nowrap;
+	vertical-align: middle;
+	max-width: 100%;
 }
 
 #footer {
-	position: fixed;
+	display: table-row;
 	width: 100%;
-	bottom: 40px;
-	left: 0px;
-	z-index: 50; /* It should not overlap the button */
+	bottom: 20px;
+	z-index: 5; /* It should not overlap the button */
 	height: 2.0em;
 }
 
 a.menu_links {
 	text-decoration: none;
-	color: #FFFFFF;
-	text-shadow: 0.1em 0.1em 0.2em black;
-
+	color: #EF3120;
+	/*	
 	transition: All 0.7s ease;
 	-webkit-transition: All 0.7s ease;
 	-moz-transition: All 0.7s ease;
 	-o-transition: All 0.7s ease;
 	-ms-transition: All 0.7s ease;
+	*/
 }
 
+a.home_link {
+	text-decoration: none;
+	color: white;	
+}
+
+/*
 a.menu_links:hover {
-/*	color: #3CA0D0; */
-	font-size: 1.8em;
+	color: #3CA0D0;
+	font-size: 1.6em;
 	text-shadow: 0.1em 0.1em 0.2em black;
 }
+*/
 
 .growing-button {
 	position: fixed;
 	z-index: 100;
 	font-size: 1.6em;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Gatafa', sans-serif;
 
 	background: #ECF0F1;
 	border: none;
@@ -199,7 +270,6 @@ a.button-link {
 
 a.button-link:hover {
 	color: #086FA1;
-/*	text-shadow: 0.1em 0.1em 0.2em black; */
 }
 
 .outer {
@@ -214,4 +284,20 @@ a.button-link:hover {
 	background: #3498DB;
 	font-size: 1.2em;
 	font-family: 'Fenix', serif;
+}
+
+#home_message {
+	max-width: 400px;
+	display: inline-block;
+	color: #E74C3C;
+	font-size: 0.9em;
+	font-family: Gafata;
+	vertical-align: middle;
+}
+
+#large_message {
+	color: #E74C3C;
+	font-size: 1.9em;
+	font-family: Gafata;
+	max-height: 2.1em;
 }
