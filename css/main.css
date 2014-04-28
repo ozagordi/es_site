@@ -313,3 +313,34 @@ a.button-link:hover {
 	font-family: Gafata;
 	max-height: 2.0em;
 }
+
+.twocol {
+	margin-left: 120px;
+	margin-right: 120px;
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+
+	-webkit-column-width: 20em;
+	-moz-column-width: 20em;
+	column-width: 20em;
+
+	-webkit-column-gap: 1em;
+	-moz-column-gap: 1em;
+	column-gap: 1em;
+}
+
+#fixed-left {
+	position:fixed;
+	top: 50%;
+	margin-top: -130px;
+/*	width:280px; */
+}
+
+#fixed-right {
+	position:fixed;
+	top: 50%;
+	right: 0;
+	margin-top: -130px;
+/*	margin-right: -114px; */
+}
