@@ -295,7 +295,7 @@ a.button-link:hover {
 	margin: 0 auto;
 	background: #3498DB;
 	font-size: 1.2em;
-	font-family: 'Fenix', serif;
+	font-family: 'Noto Serif', serif;
 }
 
 #home_message {
@@ -303,20 +303,24 @@ a.button-link:hover {
 	display: inline-block;
 	color: #E74C3C;
 	font-size: 1.1em;
-	font-family: Gafata;
+	font-family: 'Gafata', sans-serif;
 	vertical-align: middle;
 }
 
 #large_message {
 	color: #E74C3C;
 	font-size: 1.9em;
-	font-family: Gafata;
+	font-family: 'Gafata', sans-serif;
 	max-height: 2.0em;
 }
 
 .twocol {
-	margin-left: 120px;
-	margin-right: 120px;
+	margin-left: 145px;
+	margin-right: 145px;
+	font-family: 'Noto Serif', serif;
+	font-style: italic;
+	text-align: justify;
+	
 	-webkit-column-count: 2;
 	-moz-column-count: 2;
 	column-count: 2;
@@ -325,9 +329,9 @@ a.button-link:hover {
 	-moz-column-width: 20em;
 	column-width: 20em;
 
-	-webkit-column-gap: 1em;
-	-moz-column-gap: 1em;
-	column-gap: 1em;
+	-webkit-column-gap: 1.7em;
+	-moz-column-gap: 1.7em;
+	column-gap: 1.7em;
 }
 
 #fixed-left {
