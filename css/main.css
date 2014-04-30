@@ -333,7 +333,7 @@ a.button-link:hover {
 #fixed-left {
 	position:fixed;
 	top: 50%;
-	margin-top: -130px;
+	margin-top: -111px;
 /*	width:280px; */
 }
 
@@ -341,6 +341,6 @@ a.button-link:hover {
 	position:fixed;
 	top: 50%;
 	right: 0;
-	margin-top: -130px;
+	margin-top: -111px;
 /*	margin-right: -114px; */
 }
