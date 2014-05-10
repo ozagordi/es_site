@@ -102,7 +102,7 @@ table {
 	bottom: 0px;
 }
 
-#homeinner {
+.homeinner {
 	width: 100%;
 	position: relative;
 	display: table-row;
@@ -126,12 +126,12 @@ table {
 	vertical-align: middle;
 }
 
-#empty-cell {
+.empty-cell {
 	display: table-cell;
 	height: 2em;
 }
 
-#button-cell {
+.button-cell {
 	display: table-cell;
 	overflow: hidden;
 	text-align: center;
@@ -316,7 +316,7 @@ a.button-link:hover {
 	font-family: 'Noto Serif', serif;
 }
 
-#home_message {
+.home_message {
 	max-width: 600px;
 	display: inline-block;
 	color: #E74C3C;
