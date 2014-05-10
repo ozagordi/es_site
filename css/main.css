@@ -121,13 +121,14 @@ table {
 }
 
 #main-logo {
+	width: 580px;
 	display: table-cell;
 	vertical-align: middle;
 }
 
 #empty-cell {
 	display: table-cell;
-	height: 3em;
+	height: 2em;
 }
 
 #button-cell {
@@ -136,6 +137,18 @@ table {
 	text-align: center;
 	margin: 0px;
 }
+
+#button-cell-message {
+	display: table-cell;
+	overflow: hidden;
+	text-align: center;
+	margin: 0px;
+	color: #E74C3C;
+	font-size: 1.9em;
+	font-family: 'Gafata', sans-serif;
+	/*	max-height: 2.0em; */
+}
+
 
 h1, h2, h3, h4 {
 	color: #3F4C4D;
@@ -146,7 +159,6 @@ p {
 	color: black;
 	font-family: 'Noto Serif', sans-serif;
 }
-
 
 .home_link {
 	display: inline-block;
@@ -313,13 +325,6 @@ a.button-link:hover {
 	vertical-align: middle;
 }
 
-#large_message {
-	color: #E74C3C;
-	font-size: 1.9em;
-	font-family: 'Gafata', sans-serif;
-	max-height: 2.0em;
-}
-
 .twocol {
 	margin-left: 160px;
 	margin-right: 160px;
@@ -354,3 +359,33 @@ a.button-link:hover {
 	margin-top: -111px;
 /*	margin-right: -114px; */
 }
+
+#container {
+    text-align: justify;
+    min-width: 150px;
+}
+
+#container > div {
+    display: inline-block;
+	vertical-align: middle;
+}
+
+#container:after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+#container > div:nth-child(odd) {
+	outline: #E74C3C solid 1px;
+	outline-offset: 6px;
+	margin: 3px 8px;
+}
+
+/*
+#container > div:nth-child(even) {
+    background: #0ff
+}
+*/
