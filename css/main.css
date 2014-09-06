@@ -325,6 +325,26 @@ a.button-link:hover {
 	vertical-align: middle;
 }
 
+.onecol {
+	margin-left: 160px;
+	margin-right: 160px;
+	font-family: 'Noto Serif', serif;
+	font-style: italic;
+	text-align: justify;
+	
+	-webkit-column-count: 1;
+	-moz-column-count: 1;
+	column-count: 1;
+
+	-webkit-column-width: 20em;
+	-moz-column-width: 20em;
+	column-width: 20em;
+
+	-webkit-column-gap: 1.7em;
+	-moz-column-gap: 1.7em;
+	column-gap: 1.7em;
+}
+
 .twocol {
 	margin-left: 160px;
 	margin-right: 160px;
