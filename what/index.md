@@ -1,111 +1,30 @@
 ---
 layout: engene 
-title: Title of target 1 page
+title: Our offer
 permalink: /index.html
 ---
 
-# Header 1
-[32] Sed ut perspiciatis, unde omnis iste natus error sit voluptatem
-accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo
-inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit,
-sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt,
-neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur
-adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt,
-ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
-aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui
-in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui
-dolorem eum fugiat, quo voluptas nulla pariatur?
+## What do we offer?
 
-[33] At vero eos et accusamus
-et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum
-deleniti atque corrupti, quos dolores et quas molestias excepturi sint,
-obcaecati cupiditate non provident, similique sunt in culpa, qui officia
-deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum
-facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est
-eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere
-possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
-autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet,
-ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum
-rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores
-alias consequatur aut perferendis doloribus asperiores repellat…
+We provide a substantive expertise in the design of sequencing experiments and
+the interpretation of the results. We have extensive experience of interaction
+and collaboration with experimental groups. Our experience in interdisciplinary environments allows us to communicate effectively with experimentalists.
 
-## Header 2
-[32] Sed ut perspiciatis, unde omnis iste natus error sit voluptatem
-accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo
-inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit,
-sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt,
-neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur
-adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt,
-ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
-aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui
-in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui
-dolorem eum fugiat, quo voluptas nulla pariatur? [33] At vero eos et accusamus
-et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum
-deleniti atque corrupti, quos dolores et quas molestias excepturi sint,
-obcaecati cupiditate non provident, similique sunt in culpa, qui officia
-deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum
-facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est
-eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere
-possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
-autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet,
-ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum
-rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores
-alias consequatur aut perferendis doloribus asperiores repellat…
+### Massively parallel sequencing
+ 
+Based on our expertise we provide state-of-the-art analysis in various genomic
+analyses including:
 
-### Header 3
-[32] Sed ut perspiciatis, unde omnis iste natus error sit voluptatem
-accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo
-inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit,
-sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt,
-neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur
-adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt,
-ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
-aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui
-in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui
-dolorem eum fugiat, quo voluptas nulla pariatur?
+- ChIP-Seq
+- RNA-Seq
+- SNV analysis
+- CNV detection
+- Bacterial genome assembly
+- Characterisation of viral quasispecies
+- Metagenomics
 
-[33] At vero eos et accusamus
-et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum
-deleniti atque corrupti, quos dolores et quas molestias excepturi sint,
-obcaecati cupiditate non provident, similique sunt in culpa, qui officia
-deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum
-facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est
-eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere
-possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
-autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet,
-ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum
-rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores
-alias consequatur aut perferendis doloribus asperiores repellat…
+### Statistics and biostatistics
 
-#### Header 4
-[32] Sed ut perspiciatis, unde omnis iste natus error sit voluptatem
-accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo
-inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit,
-sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt,
-neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur
-adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt,
-ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
-aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui
-in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui
-dolorem eum fugiat, quo voluptas nulla pariatur?
-
-[33] At vero eos et accusamus
-et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum
-deleniti atque corrupti, quos dolores et quas molestias excepturi sint,
-obcaecati cupiditate non provident, similique sunt in culpa, qui officia
-deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum
-facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est
-eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere
-possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
-autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet,
-ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum
-rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores
-alias consequatur aut perferendis doloribus asperiores repellat…
+We offer consulting, services and solutions in experimental design,
+computational and statistical data analysis with a strong focus in
+biology-related problems.
