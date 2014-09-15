@@ -1,7 +1,7 @@
 ---
 layout: engene 
 title: How
-permalink: /index.html
+permalink: /how/
 ---
 
 # PAGE UNDER CONSTRUCTION

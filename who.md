@@ -1,7 +1,7 @@
 ---
 layout: engene 
 title: Engene Statistics - company profile
-permalink: /index.html
+permalink: /who/
 ---
 
 ## Who are we?

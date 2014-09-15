@@ -1,7 +1,7 @@
 ---
 layout: engene 
 title: Our offer
-permalink: /index.html
+permalink: /what/
 ---
 
 ## What do we offer?
