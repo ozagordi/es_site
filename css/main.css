@@ -325,6 +325,11 @@ a.button-link:hover {
 	vertical-align: middle;
 }
 
+#contact-fields {
+	display: table-cell;
+	vertical-align: middle;
+}
+
 .onecol {
 	margin-left: 160px;
 	margin-right: 160px;
