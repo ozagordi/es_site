@@ -330,6 +330,22 @@ a.button-link:hover {
 	vertical-align: middle;
 }
 
+#mailcontact {
+	background-color: #F3C0BD;
+	float:left;
+	vertical-align: middle;
+	margin: -10px;
+	border: -5px
+}
+
+#twittercontact {
+	clear: both;
+	margin: 2px;
+	vertical-align: middle;
+	height: 70em;
+	top: 35em
+} 
+
 .onecol {
 	margin-left: 160px;
 	margin-right: 160px;
