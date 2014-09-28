@@ -134,6 +134,7 @@ table {
 .button-cell {
 	display: table-cell;
 	overflow: hidden;
+	vertical-align: middle;
 	text-align: center;
 	margin: 0px;
 }
@@ -330,15 +331,41 @@ a.button-link:hover {
 	vertical-align: middle;
 }
 
-#mailcontact {
-	background-color: #F3C0BD;
-	float:left;
-	vertical-align: middle;
-	margin: -10px;
-	border: -5px
+.contact {
+	height: 6em;
+	margin: 1em 1em 1em 1em;
 }
 
-#twittercontact {
+.contact p{
+	display: inline-block;
+	color: white;
+	font-size: 1em;
+	font-family: 'Gafata', sans-serif;
+	vertical-align: middle;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#MailImage {
+	display: inline-block;
+	background: white;
+	height: 4em;
+	margin: 1em 1em 1em 1em;
+	border:1px solid white;
+	border-radius: 2px;
+}
+
+#LinkedinImage {
+	display: inline-block;
+	height: 2em;
+	margin: 1em 1em 1em 1em;
+}
+
+#twittercontact {	
 	clear: both;
 	margin: 2px;
 	vertical-align: middle;
